@@ -17,6 +17,8 @@ int main()
     static const char letters[] = 
     "0123456789"
     "abcdefghijklmnopqrstuvwxyz";
+    "ABDEFGHIJKLMNOQRTUVWYZ";
+    "+-_$~";
     string line;
     
     msg = "Enter legth of line";
