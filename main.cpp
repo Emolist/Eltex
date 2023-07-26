@@ -38,8 +38,8 @@ int main()
     cin >> secondInput;
     
     for (int n = 0; n < length; ++n){
-        for(int y = 0; y < sizeof(letters); ++y){
-            if (line[n] == letters[10 + y]){
+        for(int y = 10; y < sizeof(letters); ++y){
+            if (line[n] == letters[y]){
                 line[n] = secondInput;
             } 
         }
